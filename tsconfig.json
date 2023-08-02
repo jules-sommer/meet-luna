@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsxImportSource": "solid-js",
+    "jsx": "preserve",
+    "strict": true,
+    "types": ["solid-start/env"],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "@providers/*": ["src/components/providers/*"],
+      "@components/*": ["src/components/*"],
+      "@server/*": ["src/server/*"],
+      "@utils/*": ["src/utils/*"],
+      "@schemas/*": ["src/schemas/*"],
+      "@ui/*": ["src/components/*"],
+      "@env": ["src/utils/.static"]
+    },
+    "include":  ["src", "styled-system"]
+  }
+}

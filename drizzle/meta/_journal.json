@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1690591094541,
+      "tag": "0000_tiresome_legion",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1690701404853,
+      "tag": "0001_rainy_marten_broadcloak",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1690701893894,
+      "tag": "0002_tired_quicksilver",
+      "breakpoints": true
+    }
+  ]
+}
